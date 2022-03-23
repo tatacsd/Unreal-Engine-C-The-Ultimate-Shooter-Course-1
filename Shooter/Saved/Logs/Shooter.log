@@ -896,3 +896,156 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.03.23-07.04.52:685][141]LogSavePackage: Moving 'D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Saved/MyShooterGameModeBaseBP94EBA3C74CF386A00640FE82D378FA56.tmp' to 'D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Content/_Game/GameMode/MyShooterGameModeBaseBP.uasset'
 [2022.03.23-07.04.52:715][141]AssetCheck: New page: Asset Save: MyShooterGameModeBaseBP
 [2022.03.23-07.04.52:715][141]LogContentValidation: Display: Validating Blueprint /Game/_Game/GameMode/MyShooterGameModeBaseBP.MyShooterGameModeBaseBP
+[2022.03.23-07.09.13:008][607]Running C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Shooter.uproject" -game -rocket -progress
+[2022.03.23-07.09.13:414][607]Discovering modules, targets and source code for project...
+[2022.03.23-07.09.15:327][607]Binding IntelliSense data...
+[2022.03.23-07.09.22:493][607]Binding IntelliSense data... 100%
+[2022.03.23-07.09.22:493][607]Writing project files...
+[2022.03.23-07.09.26:318][607]Writing project files... 100%
+[2022.03.23-07.09.26:584][607]Candidate modules for hot reload:
+[2022.03.23-07.09.26:584][607]  Shooter
+[2022.03.23-07.09.26:584][607]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Shooter,2369 ShooterEditor Win64 Development -Project="D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Shooter.uproject" "D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Shooter.uproject"  -IgnoreJunk]
+[2022.03.23-07.09.35:660][607]CompilerResultsLog: New page: Compilation - Mar. 22, 2022, 5:09:35 p.m.
+[2022.03.23-07.09.35:661][607]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\UNREAL\Unreal-Engine-C-The-Ultimate-Shooter-Course).
+[2022.03.23-07.09.35:661][607]CompilerResultsLog: Creating makefile for ShooterEditor (no existing makefile)
+[2022.03.23-07.09.35:661][607]CompilerResultsLog: Parsing headers for ShooterEditor
+[2022.03.23-07.09.35:661][607]CompilerResultsLog:   Running UnrealHeaderTool "D:\UNREAL\Unreal-Engine-C-The-Ultimate-Shooter-Course\Shooter\Shooter.uproject" "D:\UNREAL\Unreal-Engine-C-The-Ultimate-Shooter-Course\Shooter\Intermediate\Build\Win64\ShooterEditor\Development\ShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\thays\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.03.23-07.09.35:661][607]CompilerResultsLog: LogInit: Display: Loading text-based GConfig....
+[2022.03.23-07.09.35:661][607]CompilerResultsLog: Reflection code generated for ShooterEditor in 4.4554691 seconds
+[2022.03.23-07.09.35:661][607]CompilerResultsLog: Building ShooterEditor...
+[2022.03.23-07.09.35:661][607]CompilerResultsLog: Using Visual Studio 2019 14.29.30141 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.03.23-07.09.35:661][607]CompilerResultsLog: Building 9 actions with 8 processes...
+[2022.03.23-07.09.35:661][607]CompilerResultsLog:   [1/9] Shooter.cpp
+[2022.03.23-07.09.35:661][607]CompilerResultsLog:   [2/9] Shooter.init.gen.cpp
+[2022.03.23-07.09.35:661][607]CompilerResultsLog:   [3/9] ShooterGameModeBase.cpp
+[2022.03.23-07.09.35:661][607]CompilerResultsLog:   [4/9] ShooterCharacter.cpp
+[2022.03.23-07.09.35:661][607]CompilerResultsLog:   [5/9] ShooterGameModeBase.gen.cpp
+[2022.03.23-07.09.35:661][607]CompilerResultsLog:   [6/9] ShooterCharacter.gen.cpp
+[2022.03.23-07.09.35:661][607]CompilerResultsLog:   [7/9] UE4Editor-Shooter-2369.lib
+[2022.03.23-07.09.35:661][607]CompilerResultsLog:      Creating library D:\UNREAL\Unreal-Engine-C-The-Ultimate-Shooter-Course\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\UE4Editor-Shooter-2369.lib and object D:\UNREAL\Unreal-Engine-C-The-Ultimate-Shooter-Course\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\UE4Editor-Shooter-2369.exp
+[2022.03.23-07.09.35:661][607]CompilerResultsLog:   [8/9] UE4Editor-Shooter-2369.dll
+[2022.03.23-07.09.35:661][607]CompilerResultsLog:      Creating library D:\UNREAL\Unreal-Engine-C-The-Ultimate-Shooter-Course\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\UE4Editor-Shooter-2369.suppressed.lib and object D:\UNREAL\Unreal-Engine-C-The-Ultimate-Shooter-Course\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\UE4Editor-Shooter-2369.suppressed.exp
+[2022.03.23-07.09.35:661][607]CompilerResultsLog:   [9/9] ShooterEditor.target
+[2022.03.23-07.09.35:661][607]CompilerResultsLog: Total time in Parallel executor: 2.23 seconds
+[2022.03.23-07.09.35:661][607]CompilerResultsLog: Total execution time: 8.98 seconds
+[2022.03.23-07.09.35:661][607]LogMainFrame: MainFrame: Module compiling took 9.097 seconds
+[2022.03.23-07.09.35:687][607]LogClass: Could not find existing class ShooterCharacter in package /Script/Shooter for HotReload, assuming new class
+[2022.03.23-07.09.35:693][607]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Shooter' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2022.03.23-07.09.35:701][607]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.03.23-07.09.35:829][607]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0092 seconds. Added 3824 classes and 930 folders.
+[2022.03.23-07.09.35:830][607]Display: HotReload took  9.3s.
+[2022.03.23-07.09.35:836][607]Warning: HotReload operation took  9.3s.
+[2022.03.23-07.09.36:789][607]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Source/Shooter/ShooterCharacter.h'
+[2022.03.23-07.09.36:815][607]LogVSAccessor: Warning: Couldn't open file 'D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Source/Shooter/ShooterCharacter.cpp'.
+[2022.03.23-07.09.36:859][607]LogSlate: Window 'Add C++ Class' being destroyed
+[2022.03.23-07.09.37:182][607]LogHotReload: New module detected: UE4Editor-Shooter-2369.dll
+[2022.03.23-07.09.37:270][608]LogHotReload: Starting Hot-Reload from IDE
+[2022.03.23-07.09.37:304][608]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Shooter' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2022.03.23-07.09.37:310][608]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.03.23-07.09.37:329][608]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0139 seconds. Added 3824 classes and 930 folders.
+[2022.03.23-07.09.37:334][608]Display: HotReload took  0.1s.
+[2022.03.23-07.10.55:047][483]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.03.23-07.10.58:019][658]SourceControl: Source control is disabled
+[2022.03.23-07.10.58:031][658]LogSlate: Window 'Source Control Login' being destroyed
+[2022.03.23-07.11.29:015][ 35]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Game/Character/ShooterCharacterBP.ShooterCharacterBP
+[2022.03.23-07.11.29:443][ 35]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2022.03.23-07.11.57:581][324]LogContentBrowser: Attempting asset rename: MyShooterGameModeBaseBP -> ShooterGameModeBaseBP
+[2022.03.23-07.11.57:627][324]LogMetaData: Removing '/Game/_Game/GameMode/ShooterGameModeBaseBP.ShooterGameModeBaseBP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/_Game/GameMode/MyShooterGameModeBaseBP.PackageMetaData'
+[2022.03.23-07.11.57:627][324]LogMetaData: Removing '/Game/_Game/GameMode/ShooterGameModeBaseBP.SKEL_ShooterGameModeBaseBP_C:UserConstructionScript' ref from Metadata '/Game/_Game/GameMode/MyShooterGameModeBaseBP.PackageMetaData'
+[2022.03.23-07.11.57:627][324]LogMetaData: Removing '/Game/_Game/GameMode/ShooterGameModeBaseBP.SKEL_ShooterGameModeBaseBP_C' ref from Metadata '/Game/_Game/GameMode/MyShooterGameModeBaseBP.PackageMetaData'
+[2022.03.23-07.11.57:627][324]LogMetaData: Removing '/Game/_Game/GameMode/ShooterGameModeBaseBP.ShooterGameModeBaseBP_C' ref from Metadata '/Game/_Game/GameMode/MyShooterGameModeBaseBP.PackageMetaData'
+[2022.03.23-07.11.57:627][324]LogMetaData: Removing '/Game/_Game/GameMode/ShooterGameModeBaseBP.ShooterGameModeBaseBP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/_Game/GameMode/MyShooterGameModeBaseBP.PackageMetaData'
+[2022.03.23-07.11.57:627][324]LogMetaData: Removing '/Game/_Game/GameMode/ShooterGameModeBaseBP.ShooterGameModeBaseBP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/_Game/GameMode/MyShooterGameModeBaseBP.PackageMetaData'
+[2022.03.23-07.11.57:666][324]LogSavePackage: Moving 'D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Saved/ShooterGameModeBaseBP26E64F3F4F1F3279C2A703818BE0B059.tmp' to 'D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Content/_Game/GameMode/ShooterGameModeBaseBP.uasset'
+[2022.03.23-07.11.57:668][324]LogSavePackage: Moving 'D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Saved/MyShooterGameModeBaseBP7F9462D64BC286455CF4FF85718EFCA1.tmp' to 'D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Content/_Game/GameMode/MyShooterGameModeBaseBP.uasset'
+[2022.03.23-07.11.57:719][324]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.23-07.11.57:719][324]LogContentValidation: Display: Validating Blueprint /Game/_Game/GameMode/ShooterGameModeBaseBP.ShooterGameModeBaseBP
+[2022.03.23-07.11.57:719][324]LogContentValidation: Display: Validating ObjectRedirector /Game/_Game/GameMode/MyShooterGameModeBaseBP.MyShooterGameModeBaseBP_C
+[2022.03.23-07.11.57:719][324]LogContentValidation: Display: Validating ObjectRedirector /Game/_Game/GameMode/MyShooterGameModeBaseBP.Default__MyShooterGameModeBaseBP_C
+[2022.03.23-07.11.57:719][324]LogContentValidation: Display: Validating ObjectRedirector /Game/_Game/GameMode/MyShooterGameModeBaseBP.MyShooterGameModeBaseBP
+[2022.03.23-07.12.16:583][305]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.03.23-07.14.20:818][ 50]BlueprintLog: New page: Compile ShooterCharacterBP
+[2022.03.23-07.14.20:992][ 50]LogUObjectHash: Compacting FUObjectHashTables data took   6.00ms
+[2022.03.23-07.14.24:638][257]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.03.23-07.14.24:639][257]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.23-07.14.30:339][593]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.03.23-07.14.30:339][593]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.03.23-07.14.30:339][593]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.23-07.14.59:136][464]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Game/GameMode/ShooterGameModeBaseBP.ShooterGameModeBaseBP
+[2022.03.23-07.15.04:400][607]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2022.03.23-07.15.04:422][607]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.03.23-07.15.31:714][301]LogSavePackage: Moving 'D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Saved/ShooterGameModeBaseBP8E254EC642793228B6445D8145081217.tmp' to 'D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Content/_Game/GameMode/ShooterGameModeBaseBP.uasset'
+[2022.03.23-07.15.31:738][301]AssetCheck: New page: Asset Save: ShooterGameModeBaseBP
+[2022.03.23-07.15.31:738][301]LogContentValidation: Display: Validating Blueprint /Game/_Game/GameMode/ShooterGameModeBaseBP.ShooterGameModeBaseBP
+[2022.03.23-07.15.36:377][441]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.03.23-07.15.36:377][441]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.23-07.15.38:738][575]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.23-07.15.38:744][575]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.23-07.15.38:744][575]PIE: New page: PIE session: DefaultMap (Mar. 22, 2022, 5:15:38 p.m.)
+[2022.03.23-07.15.38:756][575]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2022.03.23-07.15.38:757][575]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2022.03.23-07.15.38:757][575]LogPlayLevel: Creating play world package: /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2022.03.23-07.15.38:759][575]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001891s)
+[2022.03.23-07.15.38:760][575]LogAIModule: Creating AISystem for world DefaultMap
+[2022.03.23-07.15.38:760][575]LogPlayLevel: PIE: World Init took: (0.001429s)
+[2022.03.23-07.15.38:760][575]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Game/Maps/DefaultMap.DefaultMap to /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap (0.003446s)
+[2022.03.23-07.15.38:834][575]LogUObjectHash: Compacting FUObjectHashTables data took   4.94ms
+[2022.03.23-07.15.38:838][575]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2022.03.23-07.15.38:838][575]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.23-07.15.38:838][575]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.23-07.15.38:838][575]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.23-07.15.38:838][575]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.23-07.15.38:838][575]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.23-07.15.38:838][575]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.23-07.15.38:838][575]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.23-07.15.38:839][575]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.23-07.15.38:839][575]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.23-07.15.38:839][575]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.23-07.15.38:839][575]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.23-07.15.38:839][575]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.23-07.15.38:842][575]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.23-07.15.38:842][575]LogAudioMixer: Display: 1: FrontRight
+[2022.03.23-07.15.38:870][575]LogAudioMixer: Display: Using Audio Device Headphones (TaoTronics SoundSurge 85)
+[2022.03.23-07.15.38:870][575]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.23-07.15.38:871][575]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.23-07.15.38:871][575]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.23-07.15.38:871][575]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.23-07.15.38:871][575]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.23-07.15.38:871][575]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.23-07.15.38:872][575]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.23-07.15.38:872][575]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.23-07.15.38:872][575]LogInit: FAudioDevice initialized.
+[2022.03.23-07.15.38:872][575]LogAudio: Display: Audio Device (ID: 2) registered with world 'DefaultMap'.
+[2022.03.23-07.15.38:883][575]LogLoad: Game class is 'ShooterGameModeBaseBP_C'
+[2022.03.23-07.15.38:884][575]LogWorld: Bringing World /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap up for play (max tick rate 60) at 2022.03.23-00.15.38
+[2022.03.23-07.15.38:884][575]LogWorld: Bringing up level for play took: 0.000492
+[2022.03.23-07.15.38:884][575]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2022.03.23-07.15.38:936][575]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2022.03.23-07.15.38:939][575]PIE: Server logged in
+[2022.03.23-07.15.38:940][575]PIE: Play in editor total start time 0.199 seconds.
+[2022.03.23-07.15.55:229][318]LogUObjectHash: Compacting FUObjectHashTables data took   4.35ms
+[2022.03.23-07.15.55:235][318]LogSavePackage: Moving 'D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Saved/DefaultMapE020491D4C5998E8169F668BB8FA4B72.tmp' to 'D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Content/_Game/Maps/DefaultMap.umap'
+[2022.03.23-07.15.55:243][318]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/Maps/DefaultMap_BuiltData" FILE="D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Content/_Game/Maps/DefaultMap_BuiltData.uasset" SILENT=true
+[2022.03.23-07.15.55:257][318]LogSavePackage: Moving 'D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Saved/DefaultMap_BuiltDataCDCFB1BE4DE9AC0FC98B81BC2E042F8E.tmp' to 'D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Content/_Game/Maps/DefaultMap_BuiltData.uasset'
+[2022.03.23-07.15.55:267][318]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.23-07.15.55:267][318]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/_Game/Maps/DefaultMap_BuiltData.DefaultMap_BuiltData
+[2022.03.23-07.15.55:267][318]LogContentValidation: Display: Validating World /Game/_Game/Maps/DefaultMap.DefaultMap
+[2022.03.23-07.16.21:854][751]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.23-07.16.21:854][751]LogWorld: BeginTearingDown for /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2022.03.23-07.16.21:855][751]LogWorld: UWorld::CleanupWorld for DefaultMap, bSessionEnded=true, bCleanupResources=true
+[2022.03.23-07.16.21:855][751]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.23-07.16.21:866][751]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.23-07.16.21:888][751]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.23-07.16.21:908][751]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.23-07.16.21:908][751]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.23-07.16.21:910][751]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.23-07.16.21:949][751]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2022.03.23-07.16.21:966][752]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2022.03.23-07.16.37:448][877]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2022.03.23-07.16.38:725][953]Cmd: SELECT NONE
+[2022.03.23-07.17.06:749][626]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2022.03.23-07.17.08:304][626]LogSlate: Window 'Save Content' being destroyed
+[2022.03.23-07.17.08:340][626]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/Character/ShooterCharacterBP" FILE="D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Content/_Game/Character/ShooterCharacterBP.uasset" SILENT=true
+[2022.03.23-07.17.08:355][626]LogSavePackage: Moving 'D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Saved/ShooterCharacterBPAC0477B548E9CACDC7BC569AD9DB2677.tmp' to 'D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Content/_Game/Character/ShooterCharacterBP.uasset'
+[2022.03.23-07.17.08:375][626]AssetCheck: New page: Asset Save: ShooterCharacterBP
+[2022.03.23-07.17.08:375][626]LogContentValidation: Display: Validating Blueprint /Game/_Game/Character/ShooterCharacterBP.ShooterCharacterBP
