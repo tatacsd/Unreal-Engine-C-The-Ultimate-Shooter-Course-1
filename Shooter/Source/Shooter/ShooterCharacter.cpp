@@ -41,6 +41,13 @@ void AShooterCharacter::BeginPlay()
 
 	UE_LOG(LogTemp, Warning, TEXT("int: %d, float: %f, bool: %d"), myInt, myFloat, myBool);
 
+	// using another string Fstring built in type
+	FString myString{ TEXT("My string!!") };
+	UE_LOG(LogTemp, Warning, TEXT("FString myString: %s"), *myString); // * overload in the string that returns a string from fstring
+
+	UE_LOG(LogTemp, Warning, TEXT("Name of instance: %s"), *GetName());
+
+
 
 }
 

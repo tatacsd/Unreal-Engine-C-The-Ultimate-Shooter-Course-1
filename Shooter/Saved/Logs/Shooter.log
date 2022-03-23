@@ -1391,3 +1391,92 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.03.23-07.39.11:961][890]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/_Game/Maps/DefaultMap_BuiltData.DefaultMap_BuiltData
 [2022.03.23-07.39.11:961][890]LogContentValidation: Display: Validating World /Game/_Game/Maps/DefaultMap.DefaultMap
 [2022.03.23-07.39.15:768][307]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2022.03.23-07.44.51:819][693]LogHotReload: New module detected: UE4Editor-Shooter-0009.dll
+[2022.03.23-07.44.52:845][697]LogHotReload: Starting Hot-Reload from IDE
+[2022.03.23-07.44.52:910][697]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Shooter' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2022.03.23-07.44.52:916][697]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.03.23-07.44.53:022][697]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0127 seconds. Added 3824 classes and 930 folders.
+[2022.03.23-07.44.53:026][697]Display: HotReload took  0.2s.
+[2022.03.23-07.44.55:633][766]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.23-07.44.55:638][766]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.23-07.44.55:638][766]PIE: New page: PIE session: DefaultMap (Mar. 22, 2022, 5:44:55 p.m.)
+[2022.03.23-07.44.55:638][766]LogPlayLevel: Creating play world package: /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2022.03.23-07.44.55:640][766]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001976s)
+[2022.03.23-07.44.55:641][766]LogAIModule: Creating AISystem for world DefaultMap
+[2022.03.23-07.44.55:642][766]LogPlayLevel: PIE: World Init took: (0.001576s)
+[2022.03.23-07.44.55:642][766]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Game/Maps/DefaultMap.DefaultMap to /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap (0.003669s)
+[2022.03.23-07.44.55:700][766]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2022.03.23-07.44.55:701][766]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2022.03.23-07.44.55:701][766]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.23-07.44.55:701][766]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.23-07.44.55:701][766]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.23-07.44.55:701][766]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.23-07.44.55:701][766]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.23-07.44.55:701][766]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.23-07.44.55:701][766]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.23-07.44.55:701][766]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.23-07.44.55:701][766]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.23-07.44.55:701][766]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.23-07.44.55:701][766]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.23-07.44.55:701][766]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.23-07.44.55:705][766]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.23-07.44.55:705][766]LogAudioMixer: Display: 1: FrontRight
+[2022.03.23-07.44.55:734][766]LogAudioMixer: Display: Using Audio Device Headphones (TaoTronics SoundSurge 85)
+[2022.03.23-07.44.55:734][766]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.23-07.44.55:734][766]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.23-07.44.55:734][766]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.23-07.44.55:735][766]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.23-07.44.55:735][766]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.23-07.44.55:735][766]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.23-07.44.55:736][766]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.23-07.44.55:736][766]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.23-07.44.55:736][766]LogInit: FAudioDevice initialized.
+[2022.03.23-07.44.55:736][766]LogAudio: Display: Audio Device (ID: 8) registered with world 'DefaultMap'.
+[2022.03.23-07.44.55:742][766]LogLoad: Game class is 'ShooterGameModeBaseBP_C'
+[2022.03.23-07.44.55:743][766]LogWorld: Bringing World /Game/_Game/Maps/UEDPIE_0_DefaultMap.DefaultMap up for play (max tick rate 60) at 2022.03.23-00.44.55
+[2022.03.23-07.44.55:743][766]LogWorld: Bringing up level for play took: 0.000519
+[2022.03.23-07.44.55:743][766]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2022.03.23-07.44.55:746][766]LogTemp: Warning: BeginPlay() called!
+[2022.03.23-07.44.55:746][766]LogTemp: Warning: int myInt: 42
+[2022.03.23-07.44.55:746][766]LogTemp: Warning: float myFloat: 3.121590
+[2022.03.23-07.44.55:746][766]LogTemp: Warning: double myDouble: 0.000756
+[2022.03.23-07.44.55:746][766]LogTemp: Warning: char myChar: J
+[2022.03.23-07.44.55:746][766]LogTemp: Warning: wchar_t wideChar: J
+[2022.03.23-07.44.55:746][766]LogTemp: Warning: bool myBool: 1
+[2022.03.23-07.44.55:746][766]LogTemp: Warning: int: 42, float: 3.121590, bool: 1
+[2022.03.23-07.44.55:746][766]LogTemp: Warning: FString myString: My string!!
+[2022.03.23-07.44.55:746][766]PIE: Server logged in
+[2022.03.23-07.44.55:747][766]PIE: Play in editor total start time 0.11 seconds.
+[2022.03.23-07.45.00:264][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2022.03.23-07.45.00:272][ 29]LogSavePackage: Moving 'D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Saved/DefaultMapACC598D347BB9BF97CCE709F7496DB50.tmp' to 'D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Content/_Game/Maps/DefaultMap.umap'
+[2022.03.23-07.45.00:279][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/Maps/DefaultMap_BuiltData" FILE="D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Content/_Game/Maps/DefaultMap_BuiltData.uasset" SILENT=true
+[2022.03.23-07.45.00:299][ 29]LogSavePackage: Moving 'D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Saved/DefaultMap_BuiltData58342C444EB7ADFC9CD56296AF53A63D.tmp' to 'D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Content/_Game/Maps/DefaultMap_BuiltData.uasset'
+[2022.03.23-07.45.00:309][ 29]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.23-07.45.00:309][ 29]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/_Game/Maps/DefaultMap_BuiltData.DefaultMap_BuiltData
+[2022.03.23-07.45.00:309][ 29]LogContentValidation: Display: Validating World /Game/_Game/Maps/DefaultMap.DefaultMap
+[2022.03.23-07.45.01:304][ 86]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.23-07.45.01:304][ 86]LogWorld: BeginTearingDown for /Game/_Game/Maps/UEDPIE_0_DefaultMap
+[2022.03.23-07.45.01:304][ 86]LogWorld: UWorld::CleanupWorld for DefaultMap, bSessionEnded=true, bCleanupResources=true
+[2022.03.23-07.45.01:305][ 86]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.23-07.45.01:317][ 86]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.23-07.45.01:320][ 86]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.23-07.45.01:333][ 86]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.23-07.45.01:333][ 86]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.23-07.45.01:335][ 86]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.23-07.45.01:336][ 86]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.23-07.45.01:338][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2022.03.23-07.45.01:383][ 88]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2022.03.23-07.45.02:304][134]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2022.03.23-07.45.02:311][134]LogSavePackage: Moving 'D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Saved/DefaultMap89C5A2184BA3EFB896580981F971BD8D.tmp' to 'D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Content/_Game/Maps/DefaultMap.umap'
+[2022.03.23-07.45.02:318][134]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/Maps/DefaultMap_BuiltData" FILE="D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Content/_Game/Maps/DefaultMap_BuiltData.uasset" SILENT=true
+[2022.03.23-07.45.02:336][134]LogSavePackage: Moving 'D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Saved/DefaultMap_BuiltDataEFB1558045563287F8C0D484F6ACF6D9.tmp' to 'D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Content/_Game/Maps/DefaultMap_BuiltData.uasset'
+[2022.03.23-07.45.02:349][134]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.23-07.45.02:349][134]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/_Game/Maps/DefaultMap_BuiltData.DefaultMap_BuiltData
+[2022.03.23-07.45.02:349][134]LogContentValidation: Display: Validating World /Game/_Game/Maps/DefaultMap.DefaultMap
+[2022.03.23-07.46.58:684][821]LogHotReload: New module detected: UE4Editor-Shooter-0011.dll
+[2022.03.23-07.47.00:046][826]LogHotReload: Starting Hot-Reload from IDE
+[2022.03.23-07.47.00:108][826]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Shooter' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2022.03.23-07.47.00:112][826]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.03.23-07.47.00:213][826]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0167 seconds. Added 3824 classes and 930 folders.
+[2022.03.23-07.47.00:218][826]Display: HotReload took  0.2s.
+[2022.03.23-07.47.24:509][  4]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
