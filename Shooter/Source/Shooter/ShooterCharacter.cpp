@@ -15,7 +15,13 @@ AShooterCharacter::AShooterCharacter()
 void AShooterCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
+	// Display a msg on the output log to make sure the function is called
+	UE_LOG(LogTemp, Warning, TEXT("BeginPlay() called!")); // Pass the text encoded in unicode
+
+	//using brace initialization we are garanteed we will initialize (without entering a value it will be zero
+	int myInt{ 42 };
+	UE_LOG(LogTemp, Warning, TEXT("int myInt: %d"), myInt);
 }
 
 // Called every frame
