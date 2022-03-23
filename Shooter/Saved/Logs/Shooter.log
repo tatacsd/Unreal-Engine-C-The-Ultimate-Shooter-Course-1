@@ -1480,3 +1480,54 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.03.23-07.47.00:213][826]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0167 seconds. Added 3824 classes and 930 folders.
 [2022.03.23-07.47.00:218][826]Display: HotReload took  0.2s.
 [2022.03.23-07.47.24:509][  4]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2022.03.23-08.08.24:622][834]LogHotReload: New module detected: UE4Editor-Shooter-0012.dll
+[2022.03.23-08.08.25:978][839]LogHotReload: Starting Hot-Reload from IDE
+[2022.03.23-08.08.26:058][839]LogClass: Could not find existing class ShooterCharacter in package /Script/Shooter for HotReload, assuming new class
+[2022.03.23-08.08.26:069][839]LogHotReload: Re-instancing ShooterCharacter after hot-reload.
+[2022.03.23-08.08.26:103][839]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Shooter' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2022.03.23-08.08.26:108][839]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.03.23-08.08.26:214][839]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0094 seconds. Added 3824 classes and 930 folders.
+[2022.03.23-08.08.26:217][839]Display: HotReload took  0.2s.
+[2022.03.23-08.15.47:760][157]LogHotReload: New module detected: UE4Editor-Shooter-0013.dll
+[2022.03.23-08.15.49:120][162]LogHotReload: Starting Hot-Reload from IDE
+[2022.03.23-08.15.49:187][162]LogHotReload: Re-instancing ShooterCharacter after hot-reload.
+[2022.03.23-08.15.49:217][162]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Shooter' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2022.03.23-08.15.49:225][162]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.03.23-08.15.49:387][162]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0135 seconds. Added 3824 classes and 930 folders.
+[2022.03.23-08.15.49:392][162]Display: HotReload took  0.3s.
+[2022.03.23-08.16.03:761][380]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Game/Character/ShooterCharacterBP.ShooterCharacterBP
+[2022.03.23-08.16.12:509][569]LogSlate: Window 'ShooterCharacterBP' being destroyed
+[2022.03.23-08.16.12:516][569]LogSlate: Window 'ShooterCharacterBP' being destroyed
+[2022.03.23-08.16.12:519][569]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.03.23-08.16.12:520][569]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.23-08.16.31:015][227]LogHotReload: New module detected: UE4Editor-Shooter-0014.dll
+[2022.03.23-08.16.32:374][232]LogHotReload: Starting Hot-Reload from IDE
+[2022.03.23-08.16.32:456][232]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Shooter' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2022.03.23-08.16.32:463][232]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.03.23-08.16.32:658][232]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0092 seconds. Added 3824 classes and 930 folders.
+[2022.03.23-08.16.32:662][232]Display: HotReload took  0.3s.
+[2022.03.23-08.16.38:344][417]LogUObjectHash: Compacting FUObjectHashTables data took   7.37ms
+[2022.03.23-08.16.40:489][533]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2022.03.23-08.16.40:496][533]LogSavePackage: Moving 'D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Saved/DefaultMapE902358440416B3CD5A135A5CBFB8FC4.tmp' to 'D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Content/_Game/Maps/DefaultMap.umap'
+[2022.03.23-08.16.40:501][533]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/Maps/DefaultMap_BuiltData" FILE="D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Content/_Game/Maps/DefaultMap_BuiltData.uasset" SILENT=true
+[2022.03.23-08.16.40:516][533]LogSavePackage: Moving 'D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Saved/DefaultMap_BuiltData79AD5E28465C0CD6B09DD082C5AFA17B.tmp' to 'D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Content/_Game/Maps/DefaultMap_BuiltData.uasset'
+[2022.03.23-08.16.40:530][533]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.23-08.16.40:530][533]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/_Game/Maps/DefaultMap_BuiltData.DefaultMap_BuiltData
+[2022.03.23-08.16.40:531][533]LogContentValidation: Display: Validating World /Game/_Game/Maps/DefaultMap.DefaultMap
+[2022.03.23-08.17.10:231][363]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Game/Character/ShooterCharacterBP.ShooterCharacterBP
+[2022.03.23-08.17.36:259][896]LogSlate: Window 'ShooterCharacterBP' being destroyed
+[2022.03.23-08.18.03:879][528]LogSlate: Window 'Class Defaults' being destroyed
+[2022.03.23-08.18.07:567][746]LogSlate: Window 'Class Defaults' being destroyed
+[2022.03.23-08.18.23:688][695]LogSlate: Window 'Class Defaults' being destroyed
+[2022.03.23-08.18.23:696][695]LogSlate: Window 'Class Defaults' being destroyed
+[2022.03.23-08.18.23:701][695]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.03.23-08.18.23:701][695]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.23-08.18.23:775][695]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/_Game/Character/ShooterCharacterBP.ShooterCharacterBP
+[2022.03.23-08.18.29:566][  1]LogSlate: Window 'ShooterCharacterBP' being destroyed
+[2022.03.23-08.19.25:573][842]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2022.03.23-08.19.25:580][842]LogSavePackage: Moving 'D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Saved/DefaultMap5D07D49643BA18E610A7C0B6B4F7C387.tmp' to 'D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Content/_Game/Maps/DefaultMap.umap'
+[2022.03.23-08.19.25:585][842]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Game/Maps/DefaultMap_BuiltData" FILE="D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Content/_Game/Maps/DefaultMap_BuiltData.uasset" SILENT=true
+[2022.03.23-08.19.25:599][842]LogSavePackage: Moving 'D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Saved/DefaultMap_BuiltData8932323A4320D73A97422CAA32FA7B13.tmp' to 'D:/UNREAL/Unreal-Engine-C-The-Ultimate-Shooter-Course/Shooter/Content/_Game/Maps/DefaultMap_BuiltData.uasset'
+[2022.03.23-08.19.25:617][842]AssetCheck: New page: Asset Save: multiple assets
+[2022.03.23-08.19.25:617][842]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/_Game/Maps/DefaultMap_BuiltData.DefaultMap_BuiltData
+[2022.03.23-08.19.25:617][842]LogContentValidation: Display: Validating World /Game/_Game/Maps/DefaultMap.DefaultMap

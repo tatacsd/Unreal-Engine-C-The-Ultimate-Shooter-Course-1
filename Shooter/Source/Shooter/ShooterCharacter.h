@@ -26,4 +26,17 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+private:
+	/* Camera boom positioning the camera behind the character */
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"));
+	// spring arm component
+	 // the * is a pointer 
+	 // add class to forward declare it by promissing that the class exist but you odnt need the header now
+	class USpringArmComponent* CameraBoom;
+public:
+	// make it as const -> not changing
+	// AT RUN TIME it will be in one line
+	/* Return CameraBoom subobject*/
+	FORCEINLINE USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
+
 };
