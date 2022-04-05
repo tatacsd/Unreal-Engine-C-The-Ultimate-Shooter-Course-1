@@ -18,3 +18,6 @@ And to ShooterCharacter.cpp
 ![image](https://user-images.githubusercontent.com/29147847/161722547-5fb5829b-ad89-40aa-9143-c6498ba4a63e.png)
 #### Action and axis
 ![image](https://user-images.githubusercontent.com/29147847/161723077-f09c5ecd-3ca8-4559-bb87-50adc92cbba3.png)
+
+## 19. Adding Mesh 
+![image](https://user-images.githubusercontent.com/29147847/161725572-fa99df36-69f0-4c59-989a-2af6bfae8102.png)
