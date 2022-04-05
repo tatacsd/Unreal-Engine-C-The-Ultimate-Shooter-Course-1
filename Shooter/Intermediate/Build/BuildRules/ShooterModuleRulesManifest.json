@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\UNREAL\\Unreal-Engine-C-The-Ultimate-Shooter-Course\\Shooter\\Source\\Shooter\\Shooter.Build.cs",
-		"D:\\UNREAL\\Unreal-Engine-C-The-Ultimate-Shooter-Course\\Shooter\\Source\\Shooter.Target.cs",
-		"D:\\UNREAL\\Unreal-Engine-C-The-Ultimate-Shooter-Course\\Shooter\\Source\\ShooterEditor.Target.cs"
+		"C:\\HDD\\UnrealProjects\\Unreal-Engine-C-The-Ultimate-Shooter-Course\\Shooter\\Source\\Shooter\\Shooter.Build.cs",
+		"C:\\HDD\\UnrealProjects\\Unreal-Engine-C-The-Ultimate-Shooter-Course\\Shooter\\Source\\Shooter.Target.cs",
+		"C:\\HDD\\UnrealProjects\\Unreal-Engine-C-The-Ultimate-Shooter-Course\\Shooter\\Source\\ShooterEditor.Target.cs"
 	],
 	"EngineVersion": "4.27.2"
 }
