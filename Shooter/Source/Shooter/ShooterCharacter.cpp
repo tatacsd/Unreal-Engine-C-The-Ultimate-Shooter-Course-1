@@ -11,17 +11,16 @@ AShooterCharacter::AShooterCharacter()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	// Create a camera boom (pulls in towards the character if there is a collision)
+	// Create a camera boom
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->SetupAttachment(RootComponent);
-	CameraBoom->TargetArmLength = 300.f; // The camera follows at this distance behind the character
-	CameraBoom->bUsePawnControlRotation = true; // Rotate the arm based on the controller
-	
+	CameraBoom->TargetArmLength = 300.f; // the camera follor at this distance behind the character
+	CameraBoom->bUsePawnControlRotation = true; // when our controller use the camerabom will use this rotation
 
 	// Create a follow camera
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
-	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach camera to end of boom
-	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
+	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // attatch camera relatie to boom
+	FollowCamera->bUsePawnControlRotation = false; // camera does not rotate relative to arm
 
 }
 
@@ -29,7 +28,32 @@ AShooterCharacter::AShooterCharacter()
 void AShooterCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+	
+}
 
+void AShooterCharacter::MoveForward(float Value)
+{
+	// Controller has the pawan, whatever it faces our camera faces
+	if ((Controller != nullptr) && (Value != 0.0f)) {
+		// find out which way is forward
+		const FRotator Rotation{ Controller->GetControlRotation() };
+		const FRotator YawRotation{ 0, Rotation.Yaw,0 }; // direction of upright and turning around
+
+		const FVector Direction{ FRotationMatrix{YawRotation}.GetUnitAxis(EAxis::X) }; // Creates a function o a matrix correspondent to the rotation
+		AddMovementInput(Direction, Value);
+	}
+}
+
+void AShooterCharacter::MoveRight(float Value)
+{
+	if ((Controller != nullptr) && (Value != 0.0f)) {
+		// find out which way is forward
+		const FRotator Rotation{ Controller->GetControlRotation() };
+		const FRotator YawRotation{ 0, Rotation.Yaw,0 }; // direction of upright and turning around
+
+		const FVector Direction{ FRotationMatrix{YawRotation}.GetUnitAxis(EAxis::Y) }; // Creates a function o a matrix correspondent to the rotation
+		AddMovementInput(Direction, Value);
+	}
 }
 
 // Called every frame
@@ -43,6 +67,11 @@ void AShooterCharacter::Tick(float DeltaTime)
 void AShooterCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+	check(PlayerInputComponent);
+
+	PlayerInputComponent->BindAxis("MoveForward", this, &AShooterCharacter::MoveForward); //Axis name, class using, address of the function binding
+	PlayerInputComponent->BindAxis("MoveRight", this, &AShooterCharacter::MoveRight); //Axis name, class using, address of the function binding
+
 
 }
 
