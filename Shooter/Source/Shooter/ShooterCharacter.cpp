@@ -86,7 +86,11 @@ void AShooterCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 	PlayerInputComponent->BindAxis("MoveRight", this, &AShooterCharacter::MoveRight); //Axis name, class using, address of the function binding
 	PlayerInputComponent->BindAxis("TurnRate", this, &AShooterCharacter::TurnAtRate); //Axis name, class using, address of the function binding
 	PlayerInputComponent->BindAxis("LookUpRate", this, &AShooterCharacter::LookUpAtRate); //Axis name, class using, address of the function binding
+	PlayerInputComponent->BindAxis("Turn", this, &APawn::AddControllerYawInput); //Axis name, class using, address of the function binding
+	PlayerInputComponent->BindAxis("LookUp", this, &APawn::AddControllerPitchInput); //Axis name, class using, address of the function binding
 
+	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
+	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
 }
 
