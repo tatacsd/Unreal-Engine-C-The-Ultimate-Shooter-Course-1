@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Shooter.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{126DED21-ECA1-4BDE-8206-5D6FDE8A1CD3}</UniqueIdentifier>
+      <UniqueIdentifier>{3172DD7A-4E0B-4A5D-A9EE-60B9C3112D11}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Shooter.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{6E3F0467-C4E1-4CD0-9ACD-A74AF1BAEB52}</UniqueIdentifier>
+      <UniqueIdentifier>{4D87FF80-76F3-40EB-BA28-AC9C23656A00}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Shooter">
-      <UniqueIdentifier>{9B5B5166-1009-4C80-A7EC-212C39F2855D}</UniqueIdentifier>
+      <UniqueIdentifier>{041D1532-62BD-4163-AD32-2B8876BFF6BB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Shooter\Shooter.Build.cs">
       <Filter>Source\Shooter</Filter>
