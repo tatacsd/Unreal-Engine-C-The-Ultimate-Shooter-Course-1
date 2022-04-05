@@ -69,7 +69,7 @@
 "setupapi.lib"
 "dwmapi.lib"
 "imm32.lib"
-/OUT:"C:\HDD\UnrealProjects\Unreal-Engine-C-The-Ultimate-Shooter-Course\Shooter\Binaries\Win64\UE4Editor-Shooter.dll"
-/IMPLIB:"C:\HDD\UnrealProjects\Unreal-Engine-C-The-Ultimate-Shooter-Course\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\UE4Editor-Shooter.suppressed.lib"
-/PDB:"C:\HDD\UnrealProjects\Unreal-Engine-C-The-Ultimate-Shooter-Course\Shooter\Binaries\Win64\UE4Editor-Shooter.pdb"
+/OUT:"C:\HDD\UnrealProjects\Unreal-Engine-C-The-Ultimate-Shooter-Course\Shooter\Binaries\Win64\UE4Editor-Shooter-6140.dll"
+/IMPLIB:"C:\HDD\UnrealProjects\Unreal-Engine-C-The-Ultimate-Shooter-Course\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\UE4Editor-Shooter-6140.suppressed.lib"
+/PDB:"C:\HDD\UnrealProjects\Unreal-Engine-C-The-Ultimate-Shooter-Course\Shooter\Binaries\Win64\UE4Editor-Shooter-6140.pdb"
 /ignore:4078

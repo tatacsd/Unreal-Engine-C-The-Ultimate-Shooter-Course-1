@@ -1,2 +1,2 @@
-D:\UNREAL\Unreal-Engine-C-The-Ultimate-Shooter-Course\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\Definitions.Shooter.h
-D:\UNREAL\Unreal-Engine-C-The-Ultimate-Shooter-Course\Shooter\Source\Shooter\Shooter.h
+C:\HDD\UnrealProjects\Unreal-Engine-C-The-Ultimate-Shooter-Course\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\Definitions.Shooter.h
+C:\HDD\UnrealProjects\Unreal-Engine-C-The-Ultimate-Shooter-Course\Shooter\Source\Shooter\Shooter.h

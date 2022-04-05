@@ -3,7 +3,7 @@
 /MACHINE:x64
 /SUBSYSTEM:WINDOWS
 /DEF
-/NAME:"UE4Editor-Shooter-0004.dll"
+/NAME:"UE4Editor-Shooter-6140.dll"
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\HDD\UnrealProjects\Unreal-Engine-C-The-Ultimate-Shooter-Course\Shooter\Intermediate\Build\Win64\ShooterEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
@@ -14,4 +14,4 @@
 "C:\HDD\UnrealProjects\Unreal-Engine-C-The-Ultimate-Shooter-Course\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\ShooterCharacter.gen.cpp.obj"
 "C:\HDD\UnrealProjects\Unreal-Engine-C-The-Ultimate-Shooter-Course\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\ShooterGameModeBase.gen.cpp.obj"
 "C:\HDD\UnrealProjects\Unreal-Engine-C-The-Ultimate-Shooter-Course\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\Default.rc2.res"
-/OUT:"C:\HDD\UnrealProjects\Unreal-Engine-C-The-Ultimate-Shooter-Course\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\UE4Editor-Shooter-0004.lib"
+/OUT:"C:\HDD\UnrealProjects\Unreal-Engine-C-The-Ultimate-Shooter-Course\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\UE4Editor-Shooter-6140.lib"
