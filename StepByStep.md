@@ -9,3 +9,7 @@ And to ShooterCharacter.cpp
 ![image](https://user-images.githubusercontent.com/29147847/161706345-d7a6d530-fbff-4edd-8b7c-35a3bfcb3dd3.png)
 
 ## 16. DeltaTime
+## 17. Turn at Rate
+![image](https://user-images.githubusercontent.com/29147847/161720029-11364a35-95af-4e2d-851c-ddad7b0ad361.png)
+![image](https://user-images.githubusercontent.com/29147847/161720156-584ad820-4b41-4a5f-9881-4001b5724797.png)
+![image](https://user-images.githubusercontent.com/29147847/161720258-5f6f1ac2-02b3-497f-91fc-29f54c0dca08.png)

@@ -1,17 +1,12 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\HDD\UnrealProjects\Unreal-Engine-C-The-Ultimate-Shooter-Course).
-  Parsing headers for ShooterEditor
-    Running UnrealHeaderTool "C:\HDD\UnrealProjects\Unreal-Engine-C-The-Ultimate-Shooter-Course\Shooter\Shooter.uproject" "C:\HDD\UnrealProjects\Unreal-Engine-C-The-Ultimate-Shooter-Course\Shooter\Intermediate\Build\Win64\ShooterEditor\Development\ShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\thays\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  LogInit: Display: Loading text-based GConfig....
-  Reflection code generated for ShooterEditor in 3.3882028 seconds
   Building ShooterEditor...
   Using Visual Studio 2022 14.31.31105 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 5 actions with 20 processes...
-    [1/5] ShooterCharacter.gen.cpp
-    [2/5] ShooterCharacter.cpp
-    [3/5] UE4Editor-Shooter-0004.lib
-       Creating library C:\HDD\UnrealProjects\Unreal-Engine-C-The-Ultimate-Shooter-Course\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\UE4Editor-Shooter-0004.lib and object C:\HDD\UnrealProjects\Unreal-Engine-C-The-Ultimate-Shooter-Course\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\UE4Editor-Shooter-0004.exp
-    [4/5] UE4Editor-Shooter-0004.dll
-       Creating library C:\HDD\UnrealProjects\Unreal-Engine-C-The-Ultimate-Shooter-Course\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\UE4Editor-Shooter-0004.suppressed.lib and object C:\HDD\UnrealProjects\Unreal-Engine-C-The-Ultimate-Shooter-Course\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\UE4Editor-Shooter-0004.suppressed.exp
-    [5/5] ShooterEditor.target
-  Total time in Parallel executor: 1.45 seconds
-  Total execution time: 5.35 seconds
+  Building 4 actions with 20 processes...
+    [1/4] ShooterCharacter.cpp
+    [2/4] UE4Editor-Shooter-0006.lib
+       Creating library C:\HDD\UnrealProjects\Unreal-Engine-C-The-Ultimate-Shooter-Course\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\UE4Editor-Shooter-0006.lib and object C:\HDD\UnrealProjects\Unreal-Engine-C-The-Ultimate-Shooter-Course\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\UE4Editor-Shooter-0006.exp
+    [3/4] UE4Editor-Shooter-0006.dll
+       Creating library C:\HDD\UnrealProjects\Unreal-Engine-C-The-Ultimate-Shooter-Course\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\UE4Editor-Shooter-0006.suppressed.lib and object C:\HDD\UnrealProjects\Unreal-Engine-C-The-Ultimate-Shooter-Course\Shooter\Intermediate\Build\Win64\UE4Editor\Development\Shooter\UE4Editor-Shooter-0006.suppressed.exp
+    [4/4] ShooterEditor.target
+  Total time in Parallel executor: 1.25 seconds
+  Total execution time: 1.69 seconds
